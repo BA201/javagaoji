@@ -11,8 +11,9 @@ public class Order {
     public static void main(String[] args) {
         Order o=new Order();
         we w=new we();
-//       System.out.println(o.equals(w));
+       System.out.println(o.equals(w));
        System.out.println(w);
+
 
     }
 
@@ -66,8 +67,8 @@ public class Order {
 class we extends Order{
 int t;
     public we(){
-        setId(12);
-        setName("xao");
+        setId(88);
+        setName("校长");
         t=45;
 
     }
