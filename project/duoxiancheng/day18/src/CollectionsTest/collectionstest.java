@@ -40,8 +40,9 @@ public class collectionstest {
             List ll=Arrays.asList(new Object[ls.size()]);
             Collections.copy(ll,ls);//将src中的元素复制到dest中。
         System.out.println(ll);
-        Collections.replaceAll(ll,"666","牛逼");
-        System.out.println(ll);
+        Collections.synchronizedList(ll);
+
+
 
     }
 
